@@ -1,0 +1,62 @@
+*,h1, h2, h3, h4, h5{
+    font-family: 'Cairo', sans-serif;
+font-family: 'Poppins', sans-serif ;
+}
+body{
+    height: auto !important;
+}
+h1, h2, h3, h4, h5{
+    font-family: 'Poppins', sans-serif !important ;
+
+}
+
+.headerMenu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+}
+.fa-house-div{
+    background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+    padding: 75px 25px;
+    transform: rotate(
+135deg
+
+);
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: absolute;
+    border-radius: 10px;
+    top: -26px;
+    margin: 0px 15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.fa-house{
+    position: absolute;
+    left: 16%;
+    top: 29px;
+    transform: rotate(
+222deg
+);
+}
+main{
+    height: 100%;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.divInput{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.footer-image{
+    background-image: url('./assets/footer.jpg');
+    background-size: cover;
+
+}
+footer{
+    background-color: rgb(59 130 246 / 72%) !important;
+}
